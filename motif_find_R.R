@@ -1,12 +1,4 @@
 ###################################################
-# Specify files 
-###################################################
-
-#fastaFile <- "data/test_sequences.fasta"
-#bedFile <- "data/test_genes.bed"
-#motif_sequence <- "gattaga"
-
-###################################################
 # motif.search
 
 # function for locating motifs in DNA sequence 
@@ -24,7 +16,6 @@
 library("seqinr")
 library("Biostrings")
 library("plyr")
-
 
 ### Main function for searching for motifs in sequence
 motif.search <- function(motif_sequence, fastaFile, bedFile) {
